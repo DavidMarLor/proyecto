@@ -1,0 +1,14 @@
+% An example of Weka dataset
+@relation myWekaDataset
+@attribute myStringAttribute string
+@attribute myNumericalAttribute numeric
+@attribute myIntegerAttribute numeric
+@attribute myCategoricalAttribute {Iris-setosa,Iris-versicolor,Iris-virginica}
+@attribute myDateAttribute	Date 	"yyyy-mm-dd hh:mm:ss"
+@attribute myBinaryAttribute {good,bad}
+@data
+%This is my first row
+one,5.1,3.5,Iris-virginica,2021-04-03 12:12:12,good
+two,?,2.1,Iris-setosa,2001-04-03 12:12:12,bad
+three,4.7,1.2,?, 2001-04-03 12:12:12,bad
+four,4.6,6.8,Iris-setosa,2001-04-03 12:12:12,good

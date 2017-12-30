@@ -1,0 +1,13 @@
+@relation IntegerKeelfDataset
+@attribute atribute1 integer [2, 10]
+@attribute atribute2 integer [1, 10]
+@data
+2, 2
+4, 5
+5, 6
+8, 5
+5, 7
+6, 4
+9, ?
+?, 10
+9, 5

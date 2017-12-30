@@ -1,0 +1,15 @@
+@relation dataset
+@attribute a integer [1, 5]
+@attribute b integer [1, 5]
+@attribute c integer [1, 5]
+@attribute d integer [1, 5]
+@data
+1, 1, 1, 1
+2, 2, 2, 2
+3, 3, 3, 3
+1, 1, 1, 1
+4, 4, 4, 4
+1, 1, 1, 1
+5, 5, 5, 5
+3, 3, 3, 3
+3, 3, 3, 3

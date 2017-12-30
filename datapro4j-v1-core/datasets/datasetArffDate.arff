@@ -1,0 +1,16 @@
+@relation	"wekadataset"
+@attribute	att1 date
+@attribute	att2 date	yy-MM-dd    
+@attribute 	att3 date     yyyy-MM-dd:HH:mm:ss		
+@attribute	att4 date   yy-MM-dd:HH:mm     
+@data
+
+% two instances with correct format
+2015-04-20T4:20:45, 99-03-10, 2000-01-01:09:13:34, 94-12-04:22:13
+?, 08-11-16, 2009-06-20:12:01:20, 02-10-01:17:30
+
+% an instance with compatible format
+?, 2008-11-16:13:20, 2009-06-20:12:30:16.0010, 94-12-04:22:48:20
+
+% an instance without compatible format
+%15-04-20, ?, ?, ?

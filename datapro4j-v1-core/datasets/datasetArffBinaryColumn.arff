@@ -1,0 +1,13 @@
+@relation BinaryArffDataset
+@attribute atribute1 {true, false}
+@attribute atribute2 {true, false}
+@data
+false, false
+true, false
+<null>, true
+true, true
+false, false
+-, true
+false, ?
+?, true
+false, true
